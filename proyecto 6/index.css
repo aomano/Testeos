@@ -1,0 +1,189 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: #0e0d0d;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+    color: #fa7305;
+    text-shadow: 1px 1px #bb7a02;
+    font-style: italic;
+  }
+  /* Estilos para la sección Main*/
+  main {
+    padding: 20px;
+    background-image: url(Imagenes/slogan.jpg);
+  }
+  .blockcoins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .blockcoin {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .blockcoin:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+  }
+  .blockcoin img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+  }
+  .blockcoin h2 {
+    font-size: 24px;
+    margin: 20px;
+    color: #ffffff;
+  }
+  .blockcoin a {
+    font-size: 24px;
+    margin: 20px;
+    color: #ffffff;
+  }
+  .blockcoin p {
+    font-size: 16px;
+    margin: 0 20px 20px 20px;
+    color:#ffffff
+  }
+  /* Estilos para la sección de formulario */
+  .contact {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+.contact h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  .contact label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .contact input,
+  .contact textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+.contact button {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  .contact button:hover {
+    background-color: #555;
+  }
+/*general footer*/
+  footer{
+    background-color: #0e0d0d;
+  }
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+  }
+.socialIcons{
+    display: flex;
+    justify-content: center;
+  }
+ .socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    color: whitesmoke;
+    margin: 5px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+/*Hover efects social media*/
+.socialIcons a:hover{
+    background-color: brown;
+    transition: 0.5s;
+}
+
+/*nav footer*/
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: whitesmoke;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+.footerBottom p{
+    color: whitesmoke;
+    text-align: center;
+}
+.designer{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+}
+@media (max-width: 700px){
+  .footerNav ul{
+    flex-direction: column;
+  }
+  .footerNav ul li{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  } 
+}
+
+
